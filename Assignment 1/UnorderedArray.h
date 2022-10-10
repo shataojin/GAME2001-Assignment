@@ -121,8 +121,8 @@ public:
 		m_growSize = val;
 	}
 private:
-	// Private functions
-		// Expansion
+// Private functions
+	// Expansion
 	bool Expand()
 	{
 		if (m_growSize <= 0)
@@ -146,11 +146,11 @@ private:
 		temp = nullptr;
 
 		m_maxSize += m_growSize;
-
+		
 		return true;
 	}
 private:
-	// Private Variables
+// Private Variables
 	T* m_array;			// Pointer to the beginning of the array
 
 	int m_maxSize;		// Maximum size of the array
