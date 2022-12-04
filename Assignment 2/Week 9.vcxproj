@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bac8ab57-29de-40cd-a91a-1738d019a9cd}</ProjectGuid>
-    <RootNamespace>Week2</RootNamespace>
+    <ProjectGuid>{d26450a1-e57c-4c9e-95d7-7d56a8e521ca}</ProjectGuid>
+    <RootNamespace>Week9</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="OrderedArray.h" />
-    <ClInclude Include="UnorderedArray.h" />
+    <ClInclude Include="Deque.h" />
+    <ClInclude Include="DoublyLinkedList.h" />
+    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="PriorityQueueLinkedList.h" />
+    <ClInclude Include="Queue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="DequeTest.cpp" />
+    <ClCompile Include="PriorityQueueTest.cpp" />
+    <ClCompile Include="QueueTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
