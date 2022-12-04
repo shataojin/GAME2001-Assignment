@@ -139,16 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Deque.h" />
-    <ClInclude Include="DoublyLinkedList.h" />
     <ClInclude Include="PriorityQueue.h" />
-    <ClInclude Include="PriorityQueueLinkedList.h" />
-    <ClInclude Include="Queue.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="DequeTest.cpp" />
-    <ClCompile Include="PriorityQueueTest.cpp" />
-    <ClCompile Include="QueueTest.cpp" />
+    <ClInclude Include="LinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
